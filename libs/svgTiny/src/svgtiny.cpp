@@ -994,7 +994,7 @@ svgtiny_code svgtiny_parse_text(Poco::XML::Element *text,
     
         pNode = it.nextNode();
 
-		if (!code != svgtiny_OK)
+		if ((!code) != svgtiny_OK)
 			return code;
 	}
 
